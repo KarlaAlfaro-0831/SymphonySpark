@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    color: #946354;
+    background-color:  #F3E5D8;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: #946354;
+    color:  #D7CCC8;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 24px;
+}
+
+.vision {
+    padding: 20px;
+    text-align: center;
+    background-color: #fff5ee;
+}
+
+.footer {
+    background-color:#946354;
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+
+.footer a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
+.footer img {
+    margin: 0 5px;
+}
+.footer p {
+    margin: 5px 0 0 0;
+    text-shadow: 1px 1px 2px #000;
+}

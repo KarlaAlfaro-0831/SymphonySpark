@@ -1,0 +1,156 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #F3E5D8;
+    color: #3E2723;
+    margin: 0;
+    padding: 0;
+}
+
+.portada {
+    padding: 25px;
+    background-color: #D7CCC8;
+    height: 80px;
+    color: #5D4037;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.portada .logo {
+    position: absolute;
+    left: 60px;
+    height: 110px;
+}
+
+.mainname {
+    text-align: center;
+    margin: 0;
+}
+
+.menu {
+    position: absolute;
+    top: 130px;
+    left: 0;
+    background-color: #8D6E63;
+    padding: 8.5px;
+    width: 200px;
+}
+
+.dropbtn {
+    background-color: #8D6E63;
+    color: white;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #EFEBE9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #D7CCC8;
+}
+
+.menu:hover .dropdown-content {
+    display: block;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    background-color: #A1887F;
+    padding: 10px;
+}
+
+.nav a {
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    margin: 0 10px;
+    background-color: #8D6E63;
+    border-radius: 5px;
+}
+
+.nav a:hover {
+    background-color: #5D4037;
+}
+
+.carousel-container {
+    position: relative; 
+    max-width: 100%; 
+    margin: auto; 
+    overflow: hidden; 
+    height: 180px;
+    } 
+.carousel-slide { 
+        display: flex; 
+        transition: transform 0.5s ease-in-out; 
+    } 
+.carousel-slide img { 
+        min-width: 100%; 
+    } 
+.carousel-container .prev, .carousel-container .next { 
+        position: absolute; top: 50%; 
+        transform: translateY(-50%); 
+        background-color: rgba(0,0,0,0.5); 
+        color: white; 
+        border: none; 
+        padding: 10px; 
+        cursor: pointer; 
+        z-index: 10; 
+        font-size: 18px; 
+    } 
+.carousel-container .prev { 
+        left: 10px; 
+    } 
+.carousel-container .next { 
+        right: 10px; 
+    } 
+.carousel-container .prev:hover, .carousel-container .next:hover { 
+        background-color: rgba(0,0,0,0.8); 
+    }
+
+.introduccion {
+    padding: 20px;
+    background-color: #EFEBE9;
+    color: #3E2723;
+    margin: 20px;
+}
+
+.pie {
+    background-color: #8D6E63;
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+
+.pie a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.pie img {
+    margin: 0 5px;
+}
+
+.pie p {
+    margin: 5px 0 0 0;
+    text-shadow: 2px 2px 4px #000000;
+}
