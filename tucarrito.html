@@ -3,61 +3,67 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="logo.png" type="image/x-icon">
-    <link href="tucarritostyles.css" rel="stylesheet" type="text/css">
-    <title>Tu Carrito</title>
+    <link rel="stylesheet" href="styles.css">
+    <title>Carrito de Compras</title>
 </head>
 <body>
-    <div class="portada">
-        <img src="logo.png" alt="Logo SymphonySpark" class="logo">
-        <h1 class="mainname">SymphonySpark</h1>
-    </div>
-    <div class="menu">
-        <button class="dropbtn">☰</button>
-        <div class="dropdown-content">
-            <a href="index.html">INICIO</a>
-            <a href="tucarrito.html">Tu Carrito</a>
-            <a href="info.html">Info de Empresa</a>
-        </div>
-    </div>
-    <div class="nav">
-        <a href="#">Instrumentos de Viento</a>
-        <a href="#">Instrumentos de Cuerda</a>
-        <a href="#">Instrumentos de Percusión</a>
-    </div>
-    <div class="contenido">
-        <h2>Tu Carrito de Compras</h2>
-        <table class="carrito">
-            <thead>
-                <tr>
-                    <th>Producto</th>
-                    <th>Precio</th>
-                    <th>Cantidad</th>
-                    <th>Total</th>
-                </tr>
-            </thead>
-            <tbody>
-                <!-- Ejemplo de producto -->
-                <tr>
-                    <td>Violín Acústico</td>
-                    <td>$120.00</td>
-                    <td><input type="number" value="1" min="1"></td>
-                    <td>$120.00</td>
-                </tr>
-            </tbody>
-        </table>
-        <div class="total">
-            <h3>Total: $120.00</h3>
+    <header>
+        <h1>Carrito de Compras</h1>
+    </header>
+    <nav class="nav">
+        <a href="index.html">Inicio</a>
+        <a href="#productos">Productos</a>
+        <a href="info.html">Contacto</a>
+    </nav>
+    <main>
+        <section id="carrito">
+            <h2>Tu Carrito</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Producto</th>
+                        <th>Precio</th>
+                        <th>Cantidad</th>
+                        <th>Total</th>
+                        <th>Acciones</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Saxofón</td>
+                        <td>$700</td>
+                        <td>1</td>
+                        <td>$700</td>
+                        <td><button>Eliminar</button></td>
+                    </tr>
+                    <tr>
+                        <td>Clarinete</td>
+                        <td>$350</td>
+                        <td>1</td>
+                        <td>$350</td>
+                        <td><button>Eliminar</button></td>
+                    </tr>
+                    <tr>
+                        <td>Flauta Dulce</td>
+                        <td>$50</td>
+                        <td>2</td>
+                        <td>$100</td>
+                        <td><button>Eliminar</button></td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="3">Total</td>
+                        <td colspan="2">$1150</td>
+                    </tr>
+                </tfoot>
+            </table>
             <button class="checkout">Proceder al Pago</button>
-        </div>
-    </div>
-    <div class="pie">
-        <p>Síguenos en nuestras redes sociales:</p>
-        <a href="https://es-la.facebook.com/"><img src="facebook.png" alt="Facebook" height="25px" width="25px"></a>
-        <a href="https://www.instagram.com/"><img src="instagram.png" alt="Instagram" height="25px" width="25px"></a>
-        <a href="https://twitter.com/"><img src="twitter.png" alt="Twitter" height="27px" width="27px"></a>
-        <a href="https://www.pinterest.com.mx/"><img src="pinterest.png" alt="Pinterest" height="30px" width="30px"></a>
-        <p>Contáctanos: +52 899-437-4286 | Dirección: Calle Álvaro Obregón 148, Tuxpan, Veracruz, México</p>
-    </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Tu Tienda. Todos los derechos reservados.</p>
+    </footer>
 </body>
 </html>
+
