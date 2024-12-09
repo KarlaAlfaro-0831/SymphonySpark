@@ -175,3 +175,14 @@ body {
     margin: 5px 0 0 0;
     text-shadow: 2px 2px 4px #000000;
 }
+
+@media (max-width: 768px) { 
+    .nav, .menu { 
+        flex-direction: column; 
+    } 
+.menu a, .nav a { 
+    width: 100%; box-sizing: border-box; 
+} .vaicontenedor figure { 
+    max-width: 100%; 
+} 
+}
